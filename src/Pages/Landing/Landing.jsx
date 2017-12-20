@@ -1,10 +1,14 @@
 import React from 'react';
 import './Landing.css';
+import Profile from '../../Components/Profile/Profile';
+import Projects from '../../Components/Projects/Projects';
+
 
 const Landing = (props) => {
     return (
         <div>
-            <p>This is the landing page</p>
+            <Profile />
+            <Projects />
         </div>
     );
 };
