@@ -19,7 +19,7 @@ const Projects = (props) => {
                             <p>BlackJack</p>
                         </div>
                         <div className="card-action">
-                            <Modal header="BlackJack" trigger={<Button>Details</Button>}><BlackJack /></Modal>
+                            <Modal header="BlackJack" trigger={<Button className="btn">Details</Button>}><BlackJack /></Modal>
                         </div>
                     </div>
                 </Col>
@@ -32,7 +32,7 @@ const Projects = (props) => {
                                 <p>Aberrant Barter</p>
                             </div>
                             <div className="card-action">
-                                <Modal header="Aberrant Barter" trigger={<Button>Details</Button>}><Aberrant /></Modal>
+                                <Modal header="Aberrant Barter" trigger={<Button className="btn">Details</Button>}><Aberrant /></Modal>
                             </div>
                         </div>
                 </Col>
@@ -45,7 +45,7 @@ const Projects = (props) => {
                             <p>Let's Fly</p>
                         </div>
                         <div className="card-action">
-                            <Modal header="Let's Fly" trigger={<Button>Details</Button>}><LetsFly /></Modal>
+                            <Modal header="Let's Fly" trigger={<Button className="btn">Details</Button>}><LetsFly /></Modal>
                         </div>
                     </div>
                 </Col>
@@ -58,7 +58,7 @@ const Projects = (props) => {
                             <p>Drawify</p>
                         </div>
                         <div className="card-action">
-                            <Modal header="Drawify" trigger={<Button>Details</Button>}><Drawify /></Modal>
+                            <Modal header="Drawify" trigger={<Button className="btn">Details</Button>}><Drawify /></Modal>
                         </div>
                     </div>
                 </Col>

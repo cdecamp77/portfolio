@@ -11,8 +11,10 @@ const AboutMe = (props) => {
             </Row>
             <Row>
                 <Col>
-                    <h4 className="quote "><i>My name is Christopher De Camp,</i></h4>
-                    <h4 className="quote"><i>and I am a web developer.</i></h4>
+                    <div className="quote">
+                        <h4><i>My name is Christopher De Camp,</i></h4>
+                        <h4><i>and I am a web developer.</i></h4>
+                    </div>
                 </Col>
             </Row>
             <Row>

@@ -6,7 +6,7 @@ import AboutMe from '../AboutMe/AboutMe';
 
 const Profile = (props) => {
     return (
-        <div>
+        <div className="background-img">
             <Row>
                 <Col s={3} className="ProfilePicture">
                     <ProfilePicture />

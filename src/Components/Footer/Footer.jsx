@@ -17,7 +17,7 @@ const FooterBar = (props) => {
                         <li><a href="https://www.linkedin.com/in/cdecamp77/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
                     </Col>
                     <Col s={3}>
-                        <li><a href="./../assets/cdecamp_resume.pdf" download>Resume</a></li>
+                        <li><a href="https://drive.google.com/file/d/1cMxwH3MTZU71E7NGNCToJsAJaa3K_nc-/view?ths=true">Resume</a></li>
                     </Col>
                 </ul>
             </div>
