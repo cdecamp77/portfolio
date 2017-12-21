@@ -11,13 +11,13 @@ const FooterBar = (props) => {
                         <li>cdecamp77@gmail.com</li>
                     </Col>
                     <Col s={3}>
-                        <li><a href="https://github.com/cdecamp77">GitHub</a></li>
+                        <li><a href="https://github.com/cdecamp77" target="_blank" rel="noopener noreferrer">GitHub</a></li>
                     </Col>
                     <Col s={3}>
-                        <li><a href="https://www.linkedin.com/in/cdecamp77/">LinkedIn</a></li>
+                        <li><a href="https://www.linkedin.com/in/cdecamp77/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
                     </Col>
                     <Col s={3}>
-                        <li><a href="/portfolio/public/cdecamp_resume.txt" download>Resume</a></li>
+                        <li><a href="./../assets/cdecamp_resume.pdf" download>Resume</a></li>
                     </Col>
                 </ul>
             </div>
