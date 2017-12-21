@@ -22,10 +22,10 @@ const LetsFly = (props) => {
             </Row>
             <Row>
                 <Col s={6}>
-                    <Button href="https://lets--fly.herokuapp.com/">Let's Fly Deployed</Button>
+                    <Button node="a" href="https://lets--fly.herokuapp.com/">Let's Fly Deployed</Button>
                 </Col>
                 <Col s={6}>
-		            <Button href="https://github.com/cdecamp77/letsFly/tree/decamp">Let's Fly GitHub</Button>
+		            <Button node="a" href="https://github.com/cdecamp77/letsFly/tree/decamp">Let's Fly GitHub</Button>
                 </Col>
             </Row>
         </div>

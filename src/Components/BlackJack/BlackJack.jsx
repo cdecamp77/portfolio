@@ -16,10 +16,10 @@ const BlackJack = (props) => {
             </Row>
             <Row>
                 <Col s={6}>
-                    <Button href="https://cdecamp77.github.io/Black_Jack/">BlackJack Deployed</Button>
+                    <Button node="a" href="https://cdecamp77.github.io/Black_Jack/">BlackJack Deployed</Button>
                 </Col>
                 <Col s={6}>
-		            <Button href="https://github.com/cdecamp77/Black_Jack">BlackJack GitHub</Button>
+		            <Button node="a" href="https://github.com/cdecamp77/Black_Jack">BlackJack GitHub</Button>
                 </Col>
             </Row>
         </div>

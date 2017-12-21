@@ -2,6 +2,7 @@ import React from 'react';
 import './Landing.css';
 import Profile from '../../Components/Profile/Profile';
 import Projects from '../../Components/Projects/Projects';
+import Footer from '../../Components/Footer/Footer';
 
 
 const Landing = (props) => {
@@ -9,6 +10,7 @@ const Landing = (props) => {
         <div>
             <Profile />
             <Projects />
+            <Footer />
         </div>
     );
 };

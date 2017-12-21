@@ -22,10 +22,10 @@ const Aberrant = (props) => {
             </Row>
             <Row>
                 <Col s={6}>
-                    <Button href="https://aberrant-barter.herokuapp.com/">Aberrant Barter Deployed</Button>
+                    <Button node="a" href="https://aberrant-barter.herokuapp.com/">Aberrant Barter Deployed</Button>
                 </Col>
                 <Col s={6}>
-		            <Button href="https://github.com/cdecamp77/Aberrant">Aberrant Barter GitHub</Button>
+		            <Button node="a" href="https://github.com/cdecamp77/Aberrant">Aberrant Barter GitHub</Button>
                 </Col>
             </Row>
         </div>

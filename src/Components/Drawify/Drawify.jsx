@@ -22,10 +22,10 @@ const Drawify = (props) => {
             </Row>
             <Row>
                 <Col s={6}>
-                    <Button href="https://drawify.herokuapp.com/">Drawify Deployed</Button>
+                    <Button node="a" href="https://drawify.herokuapp.com/">Drawify Deployed</Button>
                 </Col>
                 <Col s={6}>
-		            <Button href="https://github.com/cdecamp77/drawify">Drawify GitHub</Button>
+		            <Button node="a" href="https://github.com/cdecamp77/drawify">Drawify GitHub</Button>
                 </Col>
             </Row>
         </div>

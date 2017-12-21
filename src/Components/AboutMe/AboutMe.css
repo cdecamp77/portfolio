@@ -1,0 +1,9 @@
+p {
+    background-color: blue;
+    color: orange;
+}
+
+.quote {
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+}
