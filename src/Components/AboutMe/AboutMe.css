@@ -1,9 +1,19 @@
-p {
-    background-color: blue;
-    color: orange;
+.about-me {
+    /* background-color: black; */
+    color: rgb(21, 50, 67);
+    font-family: 'Martel', serif;
+    text-align: center;
+    padding: 5px;
 }
 
 .quote {
     text-align: center;
     font-family: 'Inconsolata', monospace;
+}
+
+.about {
+    height: 100px;
+    width: 100%; 
+    background-color: rgba(21, 50, 67, 0.3);
+
 }

@@ -1,8 +1,13 @@
 .card {
-    box-shadow: 12px 12px 12px 1px rgba(0, 0, 255, .2);
+    box-shadow: 12px 12px 12px 1px rgba(21, 50, 67, .2);
     padding: 15px;
     margin: 15px;
     height: 350px;
+}
+
+.card-title {
+    color: rgb(21, 50, 67);
+    background-color: #E8F1F2;
 }
 
 .card-image {

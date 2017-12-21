@@ -14,7 +14,9 @@ const Projects = (props) => {
                     <div className="card hoverable small card-small">
                         <div className="card-image">
                             <img alt="BlackJack" src="https://i.imgur.com/Ui451ZS.jpg" />
-                            <span className="card-title">BlackJack</span>
+                        </div>
+                        <div className="card-title">
+                            <p>BlackJack</p>
                         </div>
                         <div className="card-action">
                             <Modal header="BlackJack" trigger={<Button>Details</Button>}><BlackJack /></Modal>
@@ -25,9 +27,9 @@ const Projects = (props) => {
                     <div className="card hoverable small card-small">
                             <div className="card-image">
                                 <img alt="Aberrant" src="https://i.imgur.com/ieZCxSL.png" />
-                                <span className="card-title">Aberrant Barter</span>
                             </div>
-                            <div className="card-content">
+                            <div className="card-title">
+                                <p>Aberrant Barter</p>
                             </div>
                             <div className="card-action">
                                 <Modal header="Aberrant Barter" trigger={<Button>Details</Button>}><Aberrant /></Modal>
@@ -38,7 +40,9 @@ const Projects = (props) => {
                     <div className="card hoverable small card-small">
                         <div className="card-image">
                             <img alt="LetsFly" src="https://i.imgur.com/T28IOge.png" />
-                            <span className="card-title">Let's Fly</span>
+                        </div>
+                        <div className="card-title">
+                            <p>Let's Fly</p>
                         </div>
                         <div className="card-action">
                             <Modal header="Let's Fly" trigger={<Button>Details</Button>}><LetsFly /></Modal>
@@ -49,7 +53,9 @@ const Projects = (props) => {
                     <div className="card hoverable small card-small">
                         <div className="card-image">
                             <img alt="Drawify" src="https://i.imgur.com/eotsaQx.png" />
-                            <span className="card-title">Drawify</span>
+                        </div>
+                        <div className="card-title">
+                            <p>Drawify</p>
                         </div>
                         <div className="card-action">
                             <Modal header="Drawify" trigger={<Button>Details</Button>}><Drawify /></Modal>

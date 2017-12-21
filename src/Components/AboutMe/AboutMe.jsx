@@ -17,7 +17,9 @@ const AboutMe = (props) => {
             </Row>
             <Row>
                 <Col>
-                    <p>I make dreams become reality using languages like HTML, CSS, JavaScript, ReactJS, NodeJS, and Ruby on Rails. I recently graduated from General Assembly in Los Angeles and loved everything about it. When I'm not coding my next project you can find me in a kitchen cooking up some awesome eats. Want to work together? I’d love to hear from you.</p>
+                <div className="about">
+                    <p className="about-me">I make dreams become reality using languages like HTML, CSS, JavaScript, ReactJS, NodeJS, and Ruby on Rails. I recently graduated from General Assembly in Los Angeles and loved everything about it. When I'm not coding my next project you can find me in a kitchen cooking up some awesome eats. Want to work together? I’d love to hear from you.</p>
+                </div>
                 </Col>
             </Row>
         </div>

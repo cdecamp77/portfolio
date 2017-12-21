@@ -8,10 +8,10 @@ const Profile = (props) => {
     return (
         <div>
             <Row>
-                <Col s={4} className="ProfilePicture">
+                <Col s={3} className="ProfilePicture">
                     <ProfilePicture />
                 </Col>
-                <Col s={8} className="AboutMe">
+                <Col s={9} className="AboutMe">
                     <AboutMe />
                 </Col>
             </Row>

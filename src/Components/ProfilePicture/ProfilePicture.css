@@ -1,0 +1,7 @@
+.profile-picture {
+    height: 350px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 40%;
+    border: 3px solid rgba(21, 50, 67, 0.3);
+}
